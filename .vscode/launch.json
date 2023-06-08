@@ -3,9 +3,16 @@
     // Mantenga el puntero para ver las descripciones de los existentes atributos.
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
+<<<<<<< Updated upstream
     "configurations":
 
    [
+    {
+        "command": "npm start",
+        "name": "Run npm start",
+        "request": "launch",
+        "type": "node-terminal"
+    },
     
 
     {
@@ -24,5 +31,22 @@
             "request": "attach"
         }
 
+=======
+    "configurations": [
+        
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Iniciar Chrome para localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+>>>>>>> Stashed changes
     ]
 }
